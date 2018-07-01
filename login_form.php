@@ -28,8 +28,8 @@ if (isset($_POST["login_user_with_product"])) {
 
 <ul class="navbar-header">
 	<li><a href="index.php"><span class="nav-home"></span>Home</a></li>
-	<li><a href="index.php"><span class="nav-product"></span>Product</a></li>
-	<li><a href="#" class="nav-cart" data-toggle="dropdown"><span class="shopping-cart"></span>Cart&nbsp  <span class="badge">0</span></a></li>
+	<li><a href="product.php"><span class="nav-product"></span>Product</a></li>
+	<li><a href="cart.php" class="nav-cart" data-toggle="dropdown"><span class="shopping-cart"></span>Cart&nbsp  <span class="badge">0</span></a></li>
 </ul>
 
 
