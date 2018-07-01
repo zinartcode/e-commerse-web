@@ -57,12 +57,12 @@ li a:hover {
   background-color: #333;
 }
 
-.cart {
+.nav-cart {
   position: relative;
   display: flex;
   float: right;
 }
-.signin {
+.nav-signin {
   flex-wrap: wrap;
   float: right;
   /* margin-left: 80%; */
@@ -124,15 +124,18 @@ li a:hover {
   background-color: rgb(201, 212, 229);
 }
 .AddToCart {
+  position: relative;
   margin-left: : 30px;
   display: flex;
   flex-wrap: wrap;
+  float: right;
+  margin-left: 35%;
   /* display: block */
 }
 img {
+  margin-top: 2em;
   display: inline-block;
   vertical-align: middle;
-  height: auto;
   max-width:100%;
   max-height: auto;
 }

@@ -18,10 +18,10 @@ if(isset($_SESSION["uid"])){
 	</head>
 <body>
 			<ul class="navbar-header">
-				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
-				<li><a href="#" class="cart" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span>Cart&nbsp  <span class="badge">0</span></a></li>
-					<li><a href="#" class="signin" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>Sign In</a></li>
+				<li><a href="index.php"><span class="nav-home"></span>Home</a></li>
+				<li><a href="index.php"><span class="nav-product"></span>Product</a></li>
+				<li><a href="#" class="nav-cart" data-toggle="dropdown"><span class="shopping-cart"></span>Cart&nbsp  <span class="badge">0</span></a></li>
+					<li><a href="login_form.php" class="nav-signin" data-toggle="dropdown"><span class="signin"></span>Sign In</a></li>
 			</ul>
 
 			<div class="categories">
@@ -34,13 +34,24 @@ if(isset($_SESSION["uid"])){
 				<div class="item">
 					<img src="includes/product_img/camera.jpg" alt="camera" >
 					<div class="price">
-						1200$
+						899$
 						<button class="AddToCart" id="add_camera" >Add</button>
 					</div>
-
 				</div>
-				<div class="item"></div>
-				<div class="item"></div>
+				<div class="item">
+					<img src="includes/product_img/iphone1.jpg" alt="iphone" >
+					<div class="price">
+						599$
+						<button class="AddToCart" id="add_camera" >Add</button>
+					</div>
+				</div>
+				<div class="item">
+					<img src="includes/product_img/home1.jpg" alt="home" >
+					<div class="price">
+						199$
+						<button class="AddToCart" id="add_camera" >Add</button>
+					</div>
+				</div>
 				<div class="item"></div>
 				<div class="item"></div>
 				<div class="item"></div>
