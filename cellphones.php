@@ -30,7 +30,7 @@ if(isset($_SESSION["uid"])){
 
 			<div class="categories">
 			  <a href="laptops.php" class="category">Laptops</a>
-			  <a href="cellphones.php" class="category">Cellphones</a>
+			  <a href="cellphones.php" style="color:rgb(85, 87, 89)" class="category">Cellphones</a>
 			  <a href="appliances.php" class="category">Appliances</a>
 			</div>
 
