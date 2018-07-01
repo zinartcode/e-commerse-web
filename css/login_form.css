@@ -38,6 +38,25 @@ label {
   color: white;
    font-size: 1em;
 }
+btn-success {
+  float: none;
+  margin-right: 5em;
+}
+#login {
+  margin-bottom: 2em;
+}
+.forgotten {
+  color: white;
+  font-style: none;
+  display: inline-block;
+  margin-top: 2%;
+}
+.create {
+  display: inline-block;
+  margin-top: 2%;
+  color: white;
+  font-style: none;
+}
 .navbar-header {
   position: relative;
   height: 20%;
