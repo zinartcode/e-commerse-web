@@ -8,10 +8,11 @@ if(isset($_SESSION["uid"])){
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Ecommerce</title>
+		<title>Buy or don't</title>
 		<script src="main.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<style></style>
+
 	</head>
 <body>
 			<ul class="navbar-header">
@@ -39,19 +40,75 @@ if(isset($_SESSION["uid"])){
 					<img src="includes/product_img/iphone1.jpg" alt="iphone" >
 					<div class="price">
 						599$
-						<button class="AddToCart" id="add_camera" >Add</button>
+						<button class="AddToCart" id="add_iphone1" >Add</button>
 					</div>
 				</div>
 				<div class="item">
 					<img src="includes/product_img/home1.jpg" alt="home" >
 					<div class="price">
 						199$
-						<button class="AddToCart" id="add_camera" >Add</button>
+						<button class="AddToCart" id="add_home1" >Add</button>
 					</div>
 				</div>
+        <div class="item">
+          <img src="includes/product_img/laptop1.png" alt="home" >
+          <div class="price">
+            799$
+            <button class="AddToCart" id="add_laptop1" >Add</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="includes/product_img/ipad.jpg" alt="home" >
+          <div class="price">
+            299$
+            <button class="AddToCart" id="add_ipad" >Add</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="includes/product_img/home2.jpg" alt="home" >
+          <div class="price">
+            149$
+            <button class="AddToCart" id="add_home2" >Add</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="includes/product_img/laptop2.jpg" alt="home" >
+          <div class="price">
+            799$
+            <button class="AddToCart" id="add_laptop2" >Add</button>
+          </div>
+        </div>
+          <div class="item">
+            <img src="includes/product_img/android1.jpg" alt="iphone" >
+            <div class="price">
+              599$
+              <button class="AddToCart" id="add_android1" >Add</button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="includes/product_img/home3.jpg" alt="home" >
+            <div class="price">
+              299$
+              <button class="AddToCart" id="add_home3" >Add</button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="includes/product_img/iphone2.png" alt="home" >
+            <div class="price">
+              299$
+              <button class="AddToCart" id="add_iphone2" >Add</button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="includes/product_img/home4.jpg" alt="home" >
+            <div class="price">
+              299$
+              <button class="AddToCart" id="add_home4" >Add</button>
+            </div>
+          </div>
+				<!-- <div class="item"></div>
 				<div class="item"></div>
-				<div class="item"></div>
-				<div class="item"></div>
+				<div class="item"></div> -->
 			</div>
 
 			<div class="clearfix"></div>

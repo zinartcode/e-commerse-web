@@ -8,7 +8,7 @@ if(isset($_SESSION["uid"])){
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Ecommerce</title>
+		<title>Buy or don't</title>
 		<link rel="stylesheet" href="css/main.css"/>
 		<script src="js/jquery2.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -23,11 +23,15 @@ if(isset($_SESSION["uid"])){
 				<li><a href="cart.php" class="nav-cart" data-toggle="dropdown"><span class="shopping-cart"></span>Cart&nbsp  <span class="badge">0</span></a></li>
 					<li><a href="login_form.php" class="nav-signin" data-toggle="dropdown"><span class="signin"></span>Sign In</a></li>
 			</ul>
+			<div class="intro">
+				<h1 style="color:white;">Buy or don't</h1>
+				<h2 style="color:white;">It's your choice</h2>
+			</div>
 
 			<div class="categories">
-			  <a href="#" class="category">Laptops</a>
-			  <a href="#" class="category">Cellphones</a>
-			  <a href="#" class="category">Appliances</a>
+			  <a href="laptops.php" class="category">Laptops</a>
+			  <a href="cellphones.php" class="category">Cellphones</a>
+			  <a href="appliances.php" class="category">Appliances</a>
 			</div>
 
 			<div class="products">
@@ -52,9 +56,9 @@ if(isset($_SESSION["uid"])){
 						<button class="AddToCart" id="add_camera" >Add</button>
 					</div>
 				</div>
+				<!-- <div class="item"></div>
 				<div class="item"></div>
-				<div class="item"></div>
-				<div class="item"></div>
+				<div class="item"></div> -->
 			</div>
 
 			<div class="clearfix"></div>
