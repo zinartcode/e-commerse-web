@@ -43,7 +43,7 @@ if (isset($_POST["login_user_with_product"])) {
 			<input type="password" class="form-control" name="password" id="password" required/>
 			<input type="submit" class="btn-success" Value="Login">
 			<br>
-			<a class="forgotten" href="#">Forgotten Password</a>
+			<a class="forgotten" href="forgot_pasport.php">Forgotten Password</a>
 			<!--If user dont have an account then he/she will click on create account button-->
 			<div><a class="create" href="customer_registration.php?register=1">Create a new account</a></div>
 		</form>
