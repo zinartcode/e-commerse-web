@@ -47,9 +47,15 @@ $products = unserialize(file_get_contents($db_dir.$product_store));
 foreach($products as $product)
 {
 	$html = "
-	<div class='product'><img src='".$product['image_url']."'><p>Price: ".get_price($products, $product['product_name'], 1)."<a href='product_detail.php?product_name=".$product['product_name']."'>".$product['product_name']."</a></div><br />
+	<div class='product'>
+	<p>Buy</p>
+	<img src='".$product['image_url']."'>
+	<p>Price: ".get_price($products, $product['product_name'], 1).
+	"&nbsp
+	<a href='product_detail.php?product_name=".$product['product_name']."'>"."</a>
+	 </div>
 
-	<a href='basket.php?product_name=".$product['product_name']."'>".$product['product_name']."</a><br />";
+	<a href='basket.php?product_name=".$product['product_name']."'>".$product['product_name']."</a></div>";
 
 	// $html = "				<div class="item">
 	// 				<img src="includes/product_img/camera.jpg" alt="camera" >
@@ -70,6 +76,6 @@ foreach($products as $product)
 <div class="clearfix"></div>
 
 
-<div class="panel-footer">&copy; 2018</div>
+<!-- <div class="panel-footer">&copy; 2018</div> -->
 </body>
 </html>

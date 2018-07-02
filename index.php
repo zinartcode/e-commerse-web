@@ -38,13 +38,13 @@ function get_price($products, $product, $qty)
 				<!-- <h2 style="color:white;">It's your choice</h2> -->
 			</div>
 
-			<!-- <div class="categories">
+			<div class="categories">
 			  <a href="laptops.php" class="category">Laptops</a>
 			  <a href="cellphones.php" class="category">Cellphones</a>
 			  <a href="appliances.php" class="category">Appliances</a>
-			</div> -->
+			</div>
 
-			<!-- <div class="products">
+			<div class="products">
 				<div class="item">
 					<img src="includes/product_img/camera.jpg" alt="camera" >
 					<div class="price">
@@ -66,7 +66,7 @@ function get_price($products, $product, $qty)
 						<button class="AddToCart" id="add_camera" >Add</button>
 					</div>
 				</div>
-			</div> -->
+			</div>
 	<?php
 	if ($_SESSION['logged_on_user'] = "")
 		echo "<a href='logout.php'>Log out</a>";
@@ -78,7 +78,7 @@ include('constants.php');
 $products = unserialize(file_get_contents($db_dir.$product_store));
 foreach($products as $product)
 {
-	$html = "<div class='product'><img src='".$product['image_url']."'><p>Price: ".get_price($products, $product['product_name'], 1)."<a href='product_detail.php?product_name=".$product['product_name']."'>".$product['product_name']."</a></div><br />";
+	$html = "<div class='product'><img src='".$product['image_url']."'><p>Price: ".get_price($products, $product['product_name'], 1)."&nbsp<a href='product_detail.php?product_name=".$product['product_name']."'>".$product['product_name']."</a></div><br />";
 	echo $html;
 }
 ?>
@@ -87,7 +87,7 @@ foreach($products as $product)
 
 			<!-- <div class="panel-footer"></div> -->
 
-			<div class="panel-footer">&copy; 2018</div>
+			<!-- <div class="panel-footer">&copy; 2018</div> -->
 
 </body>
 </html>
