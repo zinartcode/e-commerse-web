@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  background-color: rgb(150, 163, 183);
+  background-color: white;
+  /* rgb(150, 163, 183); */
   margin: 0;
 }
 
@@ -35,7 +36,7 @@ form {
   display: inline;
 }
 label {
-  color: white;
+  color: black;
    font-size: 1em;
 }
 btn-success {
@@ -46,7 +47,7 @@ btn-success {
   margin-bottom: 2em;
 }
 .forgotten {
-  color: white;
+  color: black;
   font-style: none;
   display: inline-block;
   margin-top: 2%;
@@ -54,7 +55,7 @@ btn-success {
 .create {
   display: inline-block;
   margin-top: 2%;
-  color: white;
+  color: black;
   font-style: none;
 }
 .navbar-header {

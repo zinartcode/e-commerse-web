@@ -5,6 +5,6 @@
     <title>Fraud</title>
   </head>
   <body>
-    <p>We stole you money. You'll never receive product. Ha ha</p>
+    <p>Congrats</p>
   </body>
 </html>
